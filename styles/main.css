@@ -114,7 +114,6 @@ a:hover {
   margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 0.75rem;
-  align-self: center;
 }
 
 /* Navigation Menu */
@@ -383,21 +382,10 @@ a:hover {
 @media (min-width: 500px) {
   /* Header */
   .hero .hero-text {
-    display: flex;
-    flex-direction: column;
     flex-direction: flex-start;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: var(--overlay-color);
   }
 
   .hero h1 {
-    margin: 0;
-    color: var(--dustyblue-color);
     font-size: 6rem;
     text-shadow: -1px -1px 2px var(--background-color),
       1px -1px 2px var(--background-color), -1px 1px 2px var(--background-color),
@@ -405,6 +393,7 @@ a:hover {
     /* text-shadow: 4px 4px 4px var(--background-color); */
     margin-top: 2rem;
     margin-bottom: 4rem;
+    margin-left: 0;
   }
 
   /* Menu */
